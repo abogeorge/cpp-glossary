@@ -23,6 +23,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/bin)
 # Headers
 set(HEADERS
 	include/const_macro.h
+	include/typedefs.h
   )
 MESSAGE(STATUS "Added: " ${HEADERS})
 

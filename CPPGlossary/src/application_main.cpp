@@ -1,8 +1,8 @@
-#include "const_macro.h"
+#include "typedefs.h"
 #include <iostream>
 
 int main()
 {
-  const_macro::constPrinting();
+  typedefs::typedefPrinting();
   return 0;
 }
