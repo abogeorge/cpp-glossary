@@ -1,7 +1,8 @@
+#include "const_macro.h"
 #include <iostream>
 
 int main()
 {
-  std::cout << "Hello World!" << std::endl;
+  const_macro::constPrinting();
   return 0;
 }

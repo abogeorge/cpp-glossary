@@ -22,7 +22,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/bin)
 ## Project Files
 # Headers
 set(HEADERS
-	include/header.h
+	include/const_macro.h
   )
 MESSAGE(STATUS "Added: " ${HEADERS})
 
@@ -31,6 +31,11 @@ set(SOURCES
     src/application_main.cpp
 	)
 MESSAGE(STATUS "Added: " ${SOURCES})
+
+# Include Directories
+include_directories(
+	include
+)
 
 ## Build Type
 # Executable
