@@ -22,6 +22,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/bin)
 ## Project Files
 # Headers
 set(HEADERS
+	include/app_conf.hpp
 	include/const_macro.h
 	include/typedefs.h
   )
