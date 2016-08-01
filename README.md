@@ -18,5 +18,5 @@ The project contains a few basic examples of using and running common C/C++ comp
 ## Content
 --------------
 * Main function: application_main.cpp
-* Consts and Macros: const_macro.h
+* Consts and Macros: const_macro.h; app_conf.hpp
 * Typedefs: typedefs.h
