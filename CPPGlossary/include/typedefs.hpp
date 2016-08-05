@@ -1,5 +1,5 @@
-#ifndef TYPEDEFS_H_
-#define TYPEDEFS_H_
+#ifndef _TYPEDEFS_H_
+#define _TYPEDEFS_H_
 
 #include <iostream>
 

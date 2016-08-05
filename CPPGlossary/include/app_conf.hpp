@@ -41,8 +41,6 @@
 
 // Disable warnings for GCC
 
-/* http://dbp-consulting.com/tutorials/SuppressingGCCWarnings.html */
-
 #if defined(__GNUC__) && defined(__GNUC_MINOR__)
 
 #if ((__GNUC__ * 100) + __GNUC_MINOR__) >= 402
@@ -71,6 +69,3 @@
 #endif // __GNUC__ && __GNUC_MINOR__
 
 #endif // !_APP_COMMON_HPP_
-
-
-#endif // !_APP_CONF_HPP_

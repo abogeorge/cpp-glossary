@@ -1,7 +1,11 @@
-#ifndef CONST_MACRO_H_
-#define CONST_MACRO_H_
+#ifndef _CONST_MACRO_H_
+#define _CONST_MACRO_H_
 
+#include "app_conf.hpp"
+
+WF_MSW_DISABLE(MSW_STL)
 #include <iostream>
+WF_MSW_DISABLE();
 
 /* Constants definition.
 If the variable type is missing, int is assumed */
